@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+
+.Header {
+    height: 130px;
+    width: 750px;
+}
+
+#logo {
+
+    margin-top: 0px;
+    margin-left: -100px;
+    height: 100px;
+}
+
+#clgname {
+    font-weight: bold;
+    margin-left: px;
+    margin-top: -80px;
+    font-size: 38px;
+}
+
+nav {
+    width: 30%;
+    margin-left: 76%;
+    margin-bottom: -70px;
+    margin-top: 50px;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: large;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/*--Body--*/
+.computer {
+    background: linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.115)), url("images/Computer.jpg") center/cover no-repeat;
+
+    margin-left: -50px;
+
+}
+
+.commerce {
+    background: linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.115)), url("images/Commerce.jpg") center/cover no-repeat;
+
+    position: relative;
+    left: 690px;
+    top: 30px;
+    width: 690px;
+    height: 400px;
+}
+
+
+
+/*--Footer--*/
+.footer {
+    position: relative;
+    height: -40%;
+    border-radius: 10px;
+}
+
+.contact {
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+#fb {
+
+    width: 30px;
+    height: 25px;
+    margin-left: -10px;
+
+}
+
+#insta {
+
+    width: 25px;
+    height: 25px;
+}
+
+#twitter {
+
+    width: 25px;
+    height: 25px;
+}
+
+#phone {
+
+    width: 25px;
+    height: 25px;
+}
+
+.copyright {
+    margin-top: -30px;
+    margin-left: 330px;
+}
+
+
+a img {
+    transition: all 0.3s linear;
+}
+
+.con:hover {
+    transform: scale(1.5);
+}
+
+#view {
+    margin-left: 200px;
+    margin-top: -67px;
+}

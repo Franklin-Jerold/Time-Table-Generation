@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SJU/Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+
+<body class="text-center">
+
+
+    <main class="form-signin w-100 m-auto">
+        <form action="Home.html" method="post" id="login-form">
+            <img class="mb-1" src="images/logo.png" alt="logo" width="80" height="70">
+            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+            <div class="alert alert-danger visually-hidden" role="alert" id="error-msg">
+                Invalid Email or Password!
+            </div>
+
+            <div class="alert alert-success visually-hidden" role="alert" id="sucss-msg">
+                Login Successful
+            </div>
+
+            <div class="form-floating">
+                <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <br>
+            <div class="form-floating">
+                <input type="password" name="password" class="form-control" id="floatingPassword"
+                    placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+
+            <br>
+            <button class="w-100 btn btn-lg btn-primary" id="btn-submit" type="submit">Sign
+                in</button>
+
+
+
+            <p class="mt-5 mb-3 text-muted">© 2022–2023</p>
+        </form>
+    </main>
+
+
+
+
+
+    <script src="login.js"></script>
+
+</body>
+
+</html>

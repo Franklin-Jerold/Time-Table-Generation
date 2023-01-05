@@ -1,0 +1,25 @@
+form {
+    margin-top: 100px;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.m-auto {
+    margin: auto !important;
+    margin-top: auto !important;
+    margin-right: auto !important;
+    margin-bottom: auto !important;
+    margin-left: auto !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+
+.text-center {
+    text-align: center !important;
+}

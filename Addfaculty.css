@@ -1,0 +1,76 @@
+:root {
+    --transition: all 0.7s ease;
+    --yellow: #f9d342;
+    --dark: #292826;
+}
+
+nav {
+    width: 30%;
+    margin-left: 76%;
+    margin-bottom: -70px;
+    margin-top: 50px;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: large;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.containertop {
+    margin-bottom: -50px;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+.container {
+    margin-top: 40px;
+    margin-left: 500px;
+    width: 500px;
+}
+
+label {
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+.form {
+    display: contents;
+    margin-left: 510px;
+}
+
+#submit {
+    letter-spacing: 2px;
+    transition: var(--transition);
+}
+
+#submit:hover {
+    color: var(--yellow);
+    font-weight: bolder;
+}

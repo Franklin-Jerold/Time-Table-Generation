@@ -1,0 +1,289 @@
+nav {
+    width: 30%;
+    margin-left: 76%;
+    margin-bottom: -70px;
+    margin-top: 50px;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: large;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/*____________________________________*/
+h2 {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.form-label {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+.inputs {
+    padding-right: 100px;
+}
+
+#semester {
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+#faculty {
+    margin-top: -74px;
+    margin-left: 200px;
+}
+
+#totalsub {
+    margin-left: 53%;
+    margin-top: -72px;
+}
+
+#totalsubi {
+    width: 50px;
+    height: 35px;
+    margin-left: 15px;
+
+}
+
+#day {
+    margin-left: 80%;
+    padding-left: 50px;
+}
+
+/*__________________________*/
+h5 {
+    margin-bottom: 125px;
+    color: green;
+}
+
+.Body-bottom {
+    position: absolute;
+    align-items: center;
+    margin-top: 100px;
+    display: flex;
+    margin-left: 200px;
+
+    width: 60%;
+    height: 150px;
+    box-shadow: 0.1px 0px 2px 0.5px #AED6F1;
+}
+
+.Body-bottom:hover {
+    box-shadow: 5px 8px 6px -6px black;
+}
+
+
+#day {
+    margin-left: 800px;
+    margin-top: -72px;
+}
+
+#hour {
+    color: black;
+    margin-left: 20px;
+}
+
+#H1Mon {
+    margin-top: 100px;
+
+}
+
+
+#H2Mon {
+    margin-top: 300px;
+
+}
+
+#H3Mon {
+    margin-top: 500px;
+
+}
+
+#H4Mon {
+    margin-top: 700px;
+
+}
+
+#H5Mon {
+    margin-top: 900px;
+
+}
+
+/*________________________*/
+
+
+#H1Tue {
+    margin-top: 100px;
+
+}
+
+
+#H2Tue {
+    margin-top: 300px;
+
+}
+
+#H3Tue {
+    margin-top: 500px;
+
+}
+
+#H4Tue {
+    margin-top: 700px;
+
+}
+
+#H5Tue {
+    margin-top: 900px;
+
+}
+
+/*________________________*/
+
+
+#H1Wed {
+    margin-top: 100px;
+
+}
+
+
+#H2Wed {
+    margin-top: 300px;
+
+}
+
+#H3Wed {
+    margin-top: 500px;
+
+}
+
+#H4Wed {
+    margin-top: 700px;
+
+}
+
+#H5Wed {
+    margin-top: 900px;
+
+}
+
+
+/*________________________*/
+
+
+#H1Thu {
+    margin-top: 100px;
+
+}
+
+
+#H2Thu {
+    margin-top: 300px;
+
+}
+
+#H3Thu {
+    margin-top: 500px;
+
+}
+
+#H4Thu {
+    margin-top: 700px;
+
+}
+
+#H5Thu {
+    margin-top: 900px;
+
+}
+
+/*________________________*/
+
+
+#H1Fri {
+    margin-top: 100px;
+
+}
+
+
+#H2Fri {
+    margin-top: 300px;
+
+}
+
+#H3Fri {
+    margin-top: 500px;
+
+}
+
+#H4Fri {
+    margin-top: 700px;
+
+}
+
+#H5Fri {
+    margin-top: 900px;
+
+}
+
+/*________________________*/
+
+
+#H1Sat {
+    margin-top: 100px;
+
+}
+
+
+#H2Sat {
+    margin-top: 300px;
+
+}
+
+#H3Sat {
+    margin-top: 500px;
+
+}
+
+#H4Sat {
+    margin-top: 700px;
+
+}
+
+#H5Sat {
+    margin-top: 900px;
+
+}
+
+
+.btn {
+    margin-top: 85%;
+    margin-bottom: 45px;
+    margin-left: 42%;
+
+}
